@@ -4,6 +4,15 @@ import Typed from 'react-typed';
 export default function Intro() {
     return (
         <div>
+              <div className ="container-fluid">           
+                        <img 
+                                alt="background image-fluid"
+                                className="background mt-5" 
+                                src="assets/img/an/an.jpg"
+                                style={{"position":"fixed", "zIndex":-1,opacity:'50%', objectFit:'contain', height: '90%', width: '90%',}}/>
+                
+              </div>
+   
               <section id="hero" class="d-flex flex-column justify-content-center">
                 <div class="container" data-aos="zoom-in" data-aos-delay="100">
                     <h1>Andrew Cao</h1>
