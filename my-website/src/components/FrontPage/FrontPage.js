@@ -5,6 +5,7 @@ import Intro from './Intro'
 export default function FrontPAge() {
     return (
         <div>
+          
           <Navbar/>
           <Intro/>
         </div>
