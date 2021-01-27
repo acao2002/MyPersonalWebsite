@@ -19,23 +19,23 @@ const FadeExample = () => {
         <img 
             alt="background "
             className="background mt-5 p4" 
-            src={fadeImages[1]}style={{"position":"fixed", "zIndex":-1, objectFit:'contain', height: '90%', width: '90%',}}/>
+            src={fadeImages[1]}style={{"position":"absolute", "zIndex":-1, objectFit:'contain', height: '90%', width: '90%',}}/>
         <img 
             alt="background "
             className="background mt-5 p2" 
-            src={fadeImages[2]}style={{"position":"fixed", "zIndex":-1, objectFit:'contain', height: '90%', width: '90%',}}/>
+            src={fadeImages[2]}style={{"position":"absolute", "zIndex":-1, objectFit:'contain', height: '90%', width: '90%',}}/>
         <img 
             alt="background "
             className="background mt-5 p3" 
-            src={fadeImages[3]}style={{"position":"fixed", "zIndex":-1, objectFit:'contain', height: '90%', width: '90%',}}/>
+            src={fadeImages[3]}style={{"position":"absolute", "zIndex":-1, objectFit:'contain', height: '90%', width: '90%',}}/>
         <img 
             alt="background "
             className="background mt-5 p1" 
-            src={fadeImages[4]}style={{"position":"fixed", "zIndex":-1, objectFit:'contain', height: '90%', width: '90%',}}/>
+            src={fadeImages[4]}style={{"position":"absolute", "zIndex":-1, objectFit:'contain', height: '90%', width: '90%',}}/>
         <img 
             alt="background "
             className="background mt-5 p5" 
-            src={fadeImages[0]}style={{"position":"fixed", "zIndex":-1, objectFit:'contain', height: '90%', width: '90%',}}/>
+            src={fadeImages[0]}style={{"position":"absolute", "zIndex":-1, objectFit:'contain', height: '90%', width: '90%',}}/>
       </div>
     </div>
   );

@@ -388,7 +388,7 @@ section {
 .about .content h3 {
   font-weight: 700;
   font-size: 26px;
-  color: #728394;
+  color: #59acff;
 }
 
 .about .content ul {
@@ -403,7 +403,7 @@ section {
 .about .content ul i {
   font-size: 20px;
   padding-right: 2px;
-  color: #0563bb;
+  color: #a6d141;
 }
 
 .about .content p:last-child {
