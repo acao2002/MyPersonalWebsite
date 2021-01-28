@@ -3,6 +3,7 @@ import Navbar from './Navbar'
 import Intro from './Intro'
 import About from './About'
 import Facts from './Facts'
+import Skills from './Skills'
 
 export default function FrontPAge() {
     return (
@@ -11,6 +12,7 @@ export default function FrontPAge() {
           <Intro/>
           <About/>
           <Facts/>
+          <Skills/>
         </div>
     
     )
