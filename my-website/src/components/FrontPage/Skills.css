@@ -5,7 +5,7 @@
   display: block;
   font-weight: bold;
   font-family: "Poppins", sans-serif;
-  font-size: 85%;
+  font-size: 95%;
 }
 
 .skill .val {
@@ -13,7 +13,9 @@
   font-style: normal;
   
 }
-
+.ic {
+    font-size: 200%;
+}
 .html {
     color:green
 }
