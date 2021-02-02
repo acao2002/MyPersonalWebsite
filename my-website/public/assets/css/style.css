@@ -687,7 +687,7 @@ section {
   text-align: center;
   padding: 70px 20px 80px 20px;
   transition: all ease-in-out 0.3s;
-  background: #fff;
+  background: #5f7e9c;
   box-shadow: 0px 5px 90px 0px rgba(110, 123, 131, 0.05);
 }
 
@@ -716,7 +716,7 @@ section {
 
 .services .icon-box .icon svg path {
   transition: 0.5s;
-  fill: #f5f5f5;
+  fill: #51656b;
 }
 
 .services .icon-box h4 {
@@ -726,7 +726,7 @@ section {
 }
 
 .services .icon-box h4 a {
-  color: #45505b;
+  color: #e3e9ee;
   transition: ease-in-out 0.3s;
 }
 
