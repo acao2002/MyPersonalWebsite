@@ -36,7 +36,7 @@ export default class Organizations extends Component {
                 <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
                   
                   <div class="icon-box ">
-                  <a href = "/FTC15093">
+                  <a href = "/Vigg">
                       <div >
                           <img 
                           src={'assets/img/robotics.jpg'}style={{"position":"relative", objectFit:'cover', height: '100%', width: '100%',}}/>
@@ -53,7 +53,7 @@ export default class Organizations extends Component {
                 <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
                   
                   <div class="icon-box ">
-                  <a href = "/FTC15093">
+                  <a href = "/Qanhteam">
                       <div >
                           <img 
                           src={'assets/img/robotics.jpg'}style={{"position":"relative", objectFit:'cover', height: '100%', width: '100%',}}/>

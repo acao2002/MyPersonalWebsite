@@ -14,6 +14,7 @@ export default function Navbar() {
                         <li><a href="#about"><i class="bx bx-user"></i> <span>About</span></a></li>
                         <li><a href="#projects"><i class="bx bx-server"></i> <span>Projects</span></a></li>
                         <li><a href="#Organizations"><i class="bx bx-book-content"></i> <span>Organizations</span></a></li>
+                        <li><a href="#Hobbies"><i class="bx bx-music"></i> <span>Contact</span></a></li>
                         <li><a href="#contact"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
                         </ul>
                 </nav>

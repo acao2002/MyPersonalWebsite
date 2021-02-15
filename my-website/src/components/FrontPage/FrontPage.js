@@ -6,6 +6,7 @@ import Facts from './Facts'
 import Skills from './Skills'
 import Projects from './Projects'
 import Organizations from './Organizations'
+import Music from './Music'
 
 export default function FrontPAge() {
     return (
@@ -17,6 +18,7 @@ export default function FrontPAge() {
           <Skills/>
           <Projects/>
           <Organizations/>
+          <Music/>
         </div>
     
     )
