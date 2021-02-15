@@ -18,18 +18,18 @@ export default class Organizations extends Component {
              
                       <div >
                           <img 
-                          src={'assets/img/robotics.jpg'}style={{"position":"relative", objectFit:'cover', height: '100%', width: '100%',}}/>
+                          src={'assets/img/music.jpg'}style={{"position":"relative", objectFit:'cover', height: '230px', width: '100%',}}/>
                       </div>
                       
                   <h4 style = {{color:'lightblue'}}>Music</h4>
                   <p  style ={{color:'lightgray', fontWeight:"bold"}}>What I do</p><p style ={{color:'lightgray'}}>Guitarist/ Learning music production</p>
                   <p  style ={{color:'lightgray', fontWeight:"bold"}}>Channels</p><p style ={{color:'lightgray'}}> Follow me on Youtube and SoundCloud</p>
                   <a href = "https://www.youtube.com/channel/UCr_jeNBhNP9oSqI92sWH8VQ"  target="_blank">
-                    <img class ="mt-4 mx-2"src='/assets/img/sc.png' style = {{width:"20%",height: "20%"}}></img>
+                    <img class ="mt-4 mx-2"src='/assets/img/sc.png' style = {{width:"25%",height: "20%"}}></img>
                   </a>
                   <a href = "https://soundcloud.com/xanuchiha2002"  target="_blank">
                    
-                    <img class ="mt-4 mx-2"src='/assets/img/yt.png' style = {{width:"20%",height: "20%"}}></img>
+                    <img class ="mt-4 mx-2"src='/assets/img/yt.png' style = {{width:"25%",height: "20%"}}></img>
                   </a>
                   
                   </div>
@@ -44,7 +44,7 @@ export default class Organizations extends Component {
              
                       <div >
                           <img 
-                          src={'assets/img/robotics.jpg'}style={{"position":"relative", objectFit:'cover', height: '100%', width: '100%',}}/>
+                          src={'assets/img/chess.jpg'}style={{"position":"relative", objectFit:'cover', height: '100%', width: '100%',}}/>
                       </div>
                       
                   <h4 style = {{color:'lightblue'}}>Chess</h4>
