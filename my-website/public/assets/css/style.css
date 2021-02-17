@@ -929,7 +929,7 @@ section {
 --------------------------------------------------------------*/
 .contact .info {
   width: 100%;
-  background: #fff;
+  background: rgb(3, 3, 3);
 }
 
 .contact .info i {
@@ -947,18 +947,18 @@ section {
 }
 
 .contact .info h4 {
-  padding: 0 0 0 60px;
+
   font-size: 22px;
   font-weight: 600;
   margin-bottom: 5px;
-  color: #45505b;
+  color: #f3f3f3;
 }
 
 .contact .info p {
-  padding: 0 0 0 60px;
+
   margin-bottom: 0;
   font-size: 14px;
-  color: #728394;
+  color: #ecf3fa;
 }
 
 .contact .info .email, .contact .info .phone {

@@ -7,6 +7,7 @@ import Skills from './Skills'
 import Projects from './Projects'
 import Organizations from './Organizations'
 import Music from './Music'
+import Contact from './Contact'
 
 export default function FrontPAge() {
     return (
@@ -19,6 +20,7 @@ export default function FrontPAge() {
           <Projects/>
           <Organizations/>
           <Music/>
+          <Contact/>
         </div>
     
     )

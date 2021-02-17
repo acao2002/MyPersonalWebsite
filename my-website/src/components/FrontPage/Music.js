@@ -15,13 +15,13 @@ export default class Organizations extends Component {
                 <div class="col-lg-5 col-md-6 d-flex  mx-auto" data-aos="zoom-in" data-aos-delay="100">
                   
                   <div class="icon-box2 ">
-             
+                  <h4 style = {{color:'lightblue'}}>Music</h4>
                       <div >
                           <img 
                           src={'assets/img/music.jpg'}style={{"position":"relative", objectFit:'cover', height: '230px', width: '100%',}}/>
                       </div>
                       
-                  <h4 style = {{color:'lightblue'}}>Music</h4>
+                  
                   <p  style ={{color:'lightgray', fontWeight:"bold"}}>What I do</p><p style ={{color:'lightgray'}}>Guitarist/ Learning music production</p>
                   <p  style ={{color:'lightgray', fontWeight:"bold"}}>Channels</p><p style ={{color:'lightgray'}}> Follow me on Youtube and SoundCloud</p>
                   <a href = "https://www.youtube.com/channel/UCr_jeNBhNP9oSqI92sWH8VQ"  target="_blank">
@@ -41,13 +41,13 @@ export default class Organizations extends Component {
                 <div class="col-lg-5 col-md-6 d-flex  mx-auto" data-aos="zoom-in" data-aos-delay="100">
                   
                   <div class="icon-box2 ">
-             
+                  <h4 style = {{color:'lightblue'}}>Chess</h4>
                       <div >
                           <img 
                           src={'assets/img/chess.jpg'}style={{"position":"relative", objectFit:'cover', height: '100%', width: '100%',}}/>
                       </div>
                       
-                  <h4 style = {{color:'lightblue'}}>Chess</h4>
+                 
                   <p  style ={{color:'lightgray', fontWeight:"bold"}}>Past achievements</p>
                   <p style ={{color:'lightgray'}}> U13 National Champion 2015,2016</p>
                   <p style ={{color:'lightgray'}}> U14 ASEAN Team Classical Champion(representing Vietnam) 2015</p>
