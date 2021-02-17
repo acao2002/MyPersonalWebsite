@@ -2,6 +2,7 @@ import React from 'react';
 import {BrowserRouter, Switch, Route} from 'react-router-dom';
 import FrontPage from './components/FrontPage/FrontPage'
 import NotFound from './components/NotFound/NotFound';
+import Project from './components/Projects/Project';
 
 function App() {
   return (
@@ -13,9 +14,13 @@ function App() {
                   <FrontPage/>
               </div>
           </Route>
+          <Route exact path="/physiocare">
+              <Project/>
+          </Route>
           <Route>
               <NotFound/>
           </Route>
+    
         </Switch>
       </BrowserRouter>
     </React.Fragment>
