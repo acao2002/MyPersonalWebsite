@@ -205,7 +205,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
   color: #fff;
 }
-
+f
 .nav-menu a:hover span, .nav-menu li:hover > a span {
   display: block;
 }
@@ -305,17 +305,17 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero .social-links a {
-  font-size: 24px;
+  font-size: 20px;
   display: inline-block;
-  color: #1b72ca;
+  color: #76a9c7;
   line-height: 1;
   margin-right: 20px;
   transition: 0.3s;
-  text-shadow: 1px 1px 1px #ffffff;
+  text-shadow: 1px 1px 1px #111010;
 }
 
 #hero .social-links a:hover {
-  color: #ce18bf;
+  color: #617cb8;
 }
 
 @media (max-width: 1300px) {
@@ -368,6 +368,37 @@ section {
 }
 
 .section-title h2::after {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 40px;
+  height: 3px;
+  background: #0563bb;
+  bottom: 0;
+  left: calc(50% - 20px);
+}
+.section-title h3 {
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  position: relative;
+  color: #299188;
+}
+
+.section-title h3::before {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 120px;
+  height: 1px;
+  background: #ddd;
+  bottom: 1px;
+  left: calc(50% - 60px);
+}
+
+.section-title h3::after {
   content: '';
   position: absolute;
   display: block;

@@ -1,0 +1,9 @@
+.ptt {
+    font-size: small;
+    color: lightblue
+}
+
+.ptt:hover {
+    color: #2233cf;
+    opacity: 80%;
+}
