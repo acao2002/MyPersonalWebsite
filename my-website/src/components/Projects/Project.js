@@ -20,10 +20,11 @@ export default class Project extends Component {
 
                 </header> 
                 
-                <section id="hero" class="d-flex flex-column justify-content-center">
+                <section id="hero" class="d-flex flex-column text-center mt-5">
                     <div class="container" data-aos="zoom-in" data-aos-delay="100">
-                        <h1>Andrew Cao</h1>
-                        <p>I'm  <Typed strings={[' Developer ','Engineer','Musician','Chess player']}typeSpeed={60} backSpeed={70} loop/>
+                        <h1>PhysioCare</h1>
+                        <h3 class = "my-3" style = {{color:'lightgrey'}}>By Andrew Cao and Quoc Anh Ngo </h3>
+                        <p>Technology:  <Typed strings={['Ardunio(IoTs) ','Linear Actuators','Web interface','Automation']}typeSpeed={60} backSpeed={70} loop/>
                         </p>
                         <div class="social-links">
                             <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
