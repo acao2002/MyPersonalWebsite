@@ -6,7 +6,12 @@ export default class Project extends Component {
     render() {
         return (
             <div>
-              
+                <img 
+                    alt="background"
+                    className="background" 
+                    src="assets/img/physio.png"
+                    style={{"position":"fixed", objectFit:'cover', height: '100%', width: '100%', opacity:'50%'}}
+                />
                 <button type="button" class="mobile-nav-toggle d-xl-none"><i class="icofont-navigation-menu"></i></button>
 
               
