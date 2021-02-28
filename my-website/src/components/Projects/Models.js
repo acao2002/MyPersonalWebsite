@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import Typed from 'react-typed';
 import './Project.css';
 
-export default class Project extends Component {
+export default class Models extends Component {
     render() {
         return (
             <div>
