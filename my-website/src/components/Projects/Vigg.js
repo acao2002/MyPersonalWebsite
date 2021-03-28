@@ -9,7 +9,7 @@ export default class Vigg extends Component {
                 <img 
                     alt="background"
                     className="background" 
-                    src="assets/img/physio.png"
+                    src="assets/img/sneaker.jpg"
                     style={{"position":"fixed", objectFit:'cover', height: '100%', width: '100%', opacity:'50%'}}
                 />
                 <button type="button" class="mobile-nav-toggle d-xl-none"><i class="icofont-navigation-menu"></i></button>
@@ -26,7 +26,7 @@ export default class Vigg extends Component {
 
                 </header> 
                 
-                <section id="hero" class="d-flex flex-column text-center mt-5">
+                <section id="hero" class="d-flex flex-column text-center">
                     <div class="container" data-aos="zoom-in" data-aos-delay="100">
                         <h1>PhysioCare</h1>
                         <h3 class = "my-3" style = {{color:'lightgrey'}}>By Andrew Cao and Quoc Anh Ngo </h3>

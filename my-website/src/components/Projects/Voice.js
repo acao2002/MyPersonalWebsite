@@ -9,7 +9,7 @@ export default class Voice extends Component {
                 <img 
                     alt="background"
                     className="background" 
-                    src="assets/img/physio.png"
+                    src="assets/img/voice.jpg"
                     style={{"position":"fixed", objectFit:'cover', height: '100%', width: '100%', opacity:'50%'}}
                 />
                 <button type="button" class="mobile-nav-toggle d-xl-none"><i class="icofont-navigation-menu"></i></button>
@@ -26,17 +26,17 @@ export default class Voice extends Component {
 
                 </header> 
                 
-                <section id="hero" class="d-flex flex-column text-center mt-5">
+                <section id="hero" class="d-flex flex-column text-center">
                     <div class="container" data-aos="zoom-in" data-aos-delay="100">
-                        <h1>PhysioCare</h1>
-                        <h3 class = "my-3" style = {{color:'lightgrey'}}>By Andrew Cao and Quoc Anh Ngo </h3>
-                        <p>Technology:  <Typed strings={['Ardunio(IoTs) ','Linear Actuators','Web interface','Automation']}typeSpeed={60} backSpeed={70} loop/>
+                        <h1>Logix - Voice Assistant</h1>
+                        <h3 class = "my-3" style = {{color:'lightgrey'}}>By Andrew Cao</h3>
+                        <p>Technology:  <Typed strings={['Speech Recognition','Webscraping','Automation', 'Object-Oriented Programming']}typeSpeed={60} backSpeed={70} loop/>
                         </p>
                         <div class="social-links">
-                            <a href="#" class="ptt"><i class="devicon-github-original" ></i><div >Source code</div></a>
-                            <a href="#" class="ptt"><i class="icofont-newspaper"></i> <div >Paper/Blog</div></a>
-                            <a href="#" class="ptt"><i class="icofont-ui-video-chat"></i><div >Deployed app/Demo </div></a>
-                            <a href="#" class="ptt"><i class="icofont-key"></i><div > Tutorial </div></a>
+                            <a href="https://github.com/acao2002/Personal-laptop-voice-assitance-using-Python" target = "blank" class="ptt"><i class="devicon-github-original" ></i><div >Source code</div></a>
+                            <a href="https://devpost.com/software/personal-laptop-voice-assitance-using-python" target = "blank"  class="ptt"><i class="icofont-newspaper"></i> <div >Paper/Blog</div></a>
+                            <a href="https://www.youtube.com/watch?v=rzGFCqpxV2k" target = "blank"  class="ptt"><i class="icofont-ui-video-chat"></i><div >Deployed app/Demo </div></a>
+                            <a href="/cms" class="ptt"><i class="icofont-key"></i><div > Tutorial </div></a>
                          
                         </div>
                     </div>
@@ -44,8 +44,7 @@ export default class Voice extends Component {
                         <h3>About</h3>
                     </div>
                     <div className = "container" style = {{color: 'white'}}>
-                    Curing paralysis is a question frequently asked. In paralysis recovery, treatment is built around the neuroplasticity function of the brain - the ability to heal and make physiological as the result of interactions with the environment.
-Recovery is normally built around rehabilitative exercises, or physiotherapy, lasting from 3 to 9 months. In physiotherapy, stretching actions are performed on patients’ limbs for prolonged periods of time (1-1.5 hours) to stimulate neuroplasticity. These therapy sessions stimulate neurons to form new connections, which enables patients to regain control of their limbs. 
+                    As a student, a gamer, and a coder at the same time, I usually multitask a lot on my computer, which means leaving tons of tabs and apps open. Nevertheless, doing that would hurt my computer since I never turn them off to save time. To maximize the efficiency of my multitasking, I figure a personal voice assistant like Siri which opens and closes apps/tabs would be very convenient.
 
                     </div>
                 </section>
