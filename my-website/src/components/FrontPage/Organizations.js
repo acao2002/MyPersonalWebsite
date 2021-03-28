@@ -5,7 +5,7 @@ export default class Organizations extends Component {
     render() {
         return (
     <section id="Organizations" class="services">
-      <div class="container" data-aos="fade-up">
+      <div class="container text-center" data-aos="fade-up">
 
         <div class="section-title">
           <h2>Organizations</h2>
@@ -13,7 +13,7 @@ export default class Organizations extends Component {
 
         <div class="row">
             
-                <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+                <div class="col-lg-4 col-md-6 d-flex align-items-stretch mx-auto" data-aos="zoom-in" data-aos-delay="100">
                   
                     <div class="icon-box ">
                     <a href = "/FTC15093">
@@ -33,7 +33,7 @@ export default class Organizations extends Component {
                 </div>
             
 
-                <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+                <div class="col-lg-4 col-md-6 d-flex align-items-stretch mx-auto" data-aos="zoom-in" data-aos-delay="100">
                   
                   <div class="icon-box ">
                   <a href = "/Vigg">
@@ -49,26 +49,7 @@ export default class Organizations extends Component {
                   </div>
                 
                 </div>
-
-                <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
-                  
-                  <div class="icon-box ">
-                  <a href = "/Qanhteam">
-                      <div >
-                          <img 
-                          src={'assets/img/robotics.jpg'}style={{"position":"relative", objectFit:'cover', height: '100%', width: '100%',}}/>
-                      </div>
-                      
-                  <h4 style = {{color:'lightblue'}}>Team name</h4>
-                  <p  style ={{color:'lightgray', fontWeight:"bold"}}>Position:</p><p style ={{color:'lightgray'}}>  Founder and CEO</p>
-                  <p  style ={{color:'lightgray', fontWeight:"bold"}}>Summary:</p><p style ={{color:'lightgray'}}> A Tech startup where we build and sell original electronic products</p>
-                  <p style ={{color:'lightgray'}}> 1 current product</p>
-                  <p style ={{color:'lightgray'}}> 50 sold - 45 customers</p>
-                  </a>
-                  </div>
-                
-                </div>
-
+      
         </div>
         
 

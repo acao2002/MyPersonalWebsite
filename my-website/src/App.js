@@ -12,6 +12,7 @@ import Chatbot from './components/Projects/Chatbot';
 import Vigg from './components/Projects/Vigg';
 import Models from './components/Projects/Models';
 import Rocket from './components/Projects/Rocket';
+import Patent from './components/Projects/Patent';
 
 function App() {
   return (
@@ -49,13 +50,19 @@ function App() {
           </Route>
           <Route exact path="/FTC15093">
               <Organization/>
+
           </Route>
+          <Route exact path= "/patent">
+              <Patent/>
+          </Route>
+          <Route exact path= "/cms">
+              <CommingS/>
+          </Route>
+
           <Route>
               <NotFound/>
           </Route>
-          <Route exact pạth = "/cms">
-              <CommingS/>
-          </Route>
+
     
         </Switch>
       </BrowserRouter>

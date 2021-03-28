@@ -1,10 +1,10 @@
 import React from 'react'
 import "./NotFound.css";
-export default function CommingS() {
+export default function Patent() {
     return (
         <div>
                 <div className="NotFound">
-                    <h3>Coming Soon!</h3>
+                    <h3>Documentation currently unavailable since the product is patent pending</h3>
                 </div>
         </div>
     )

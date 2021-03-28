@@ -37,7 +37,7 @@ export default class Rocket extends Component {
                             <a href="#" class="ptt"><i class="icofont-newspaper"></i> <div >Paper/Blog</div></a>
                             <a href="#" class="ptt"><i class="icofont-ui-video-chat"></i><div >Deployed app/Demo </div></a>
                             <a href="#" class="ptt"><i class="icofont-key"></i><div > Tutorial </div></a>
-                            <a href="#" class="ptt"><i class="icofont-key"></i><div > Tutorial </div></a>
+                      
                         </div>
                     </div>
                     <div class="section-title mt-5">

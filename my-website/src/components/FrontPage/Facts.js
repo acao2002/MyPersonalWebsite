@@ -31,7 +31,7 @@ export default function Facts() {
                         <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
                             <div class="count-box">
                                 <i class="icofont-computer"></i>
-                                <CountUp end={4} />
+                                <CountUp end={2} />
                                 <p class ="cate">Hackathons</p>
                             </div>
                         </div>
