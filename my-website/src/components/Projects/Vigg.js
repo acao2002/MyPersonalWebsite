@@ -28,24 +28,20 @@ export default class Vigg extends Component {
                 
                 <section id="hero" class="d-flex flex-column text-center">
                     <div class="container" data-aos="zoom-in" data-aos-delay="100">
-                        <h1>PhysioCare</h1>
-                        <h3 class = "my-3" style = {{color:'lightgrey'}}>By Andrew Cao and Quoc Anh Ngo </h3>
-                        <p>Technology:  <Typed strings={['Ardunio(IoTs) ','Linear Actuators','Web interface','Automation']}typeSpeed={60} backSpeed={70} loop/>
+                        <h1>Vigg</h1>
+                        <h3 class = "my-3" style = {{color:'lightgrey'}}>By Andrew Cao and Tim Huynh</h3>
+                        <p>Technology:  <Typed strings={['React','Bootstrap']}typeSpeed={60} backSpeed={70} loop/>
                         </p>
                         <div class="social-links">
-                            <a href="#" class="ptt"><i class="devicon-github-original" ></i><div >Source code</div></a>
-                            <a href="#" class="ptt"><i class="icofont-newspaper"></i> <div >Paper/Blog</div></a>
-                            <a href="#" class="ptt"><i class="icofont-ui-video-chat"></i><div >Deployed app/Demo </div></a>
-                            <a href="#" class="ptt"><i class="icofont-key"></i><div > Tutorial </div></a>
-                           
+                            <a href="https://github.com/Vigg-sneakerhead/reactfrontend" target = "blank" class="pt"><i class="devicon-github-original" ></i><div >Source code</div></a>
+                            <a href="#" class="ptt"><i class="icofont-ui-video-chat"></i><div >Deployed app/Demo </div></a>  
                         </div>
                     </div>
                     <div class="section-title mt-5">
                         <h3>About</h3>
                     </div>
                     <div className = "container" style = {{color: 'white'}}>
-                    Curing paralysis is a question frequently asked. In paralysis recovery, treatment is built around the neuroplasticity function of the brain - the ability to heal and make physiological as the result of interactions with the environment.
-Recovery is normally built around rehabilitative exercises, or physiotherapy, lasting from 3 to 9 months. In physiotherapy, stretching actions are performed on patients’ limbs for prolonged periods of time (1-1.5 hours) to stimulate neuroplasticity. These therapy sessions stimulate neurons to form new connections, which enables patients to regain control of their limbs. 
+                    The front-end web application of the Vigg e-commerce start up that I built. Despite only having finished around 90% of it and not merged it with the backend and database, this project gave me plenty of start up experience and web development skills.  
 
                     </div>
                 </section>
