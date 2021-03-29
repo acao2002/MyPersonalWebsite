@@ -34,7 +34,7 @@ export default class Vigg extends Component {
                         </p>
                         <div class="social-links">
                             <a href="https://github.com/Vigg-sneakerhead/reactfrontend" target = "blank" class="pt"><i class="devicon-github-original" ></i><div >Source code</div></a>
-                            <a href="#" class="ptt"><i class="icofont-ui-video-chat"></i><div >Deployed app/Demo </div></a>  
+                            <a href="https://acao2002.github.io/ViggDeploy/#/" target = "blank" class="ptt"><i class="icofont-ui-video-chat"></i><div >Deployed app/Demo </div></a>  
                         </div>
                     </div>
                     <div class="section-title mt-5">
