@@ -13,6 +13,7 @@ import Vigg from './components/Projects/Vigg';
 import Models from './components/Projects/Models';
 import Rocket from './components/Projects/Rocket';
 import Patent from './components/Projects/Patent';
+import ViggOrg from './components/Organization/ViggOrg';
 
 function App() {
   return (
@@ -41,6 +42,9 @@ function App() {
           </Route>
           <Route exact path="/Vigg">
               <Vigg/>
+          </Route>
+          <Route exact path="/Viggst">
+              <ViggOrg/>
           </Route>
           <Route exact path="/Pmodels">
               <Models/>

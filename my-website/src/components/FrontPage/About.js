@@ -13,7 +13,7 @@ export default function About() {
 
                     <div class="row">
                         <div class="col-lg-4">
-                            <img src="assets/img/profile.jpg" class="img-fluid" alt=""style={{height: '100%', width: '100%',}}/>
+                            <img src="assets/img/anhan3.jpg" class="img-fluid" alt=""style={{height: '100%', width: '100%',}}/>
                         </div>
                     <div class="col-lg-8 pt-4 pt-lg-0 content">
                         <h3>Computer Science Student &amp; Aspiring Engineer</h3>

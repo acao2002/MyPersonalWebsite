@@ -13,7 +13,7 @@ const FadeExample = () => {
   return (
     
       
-    <div className="container mr-5">
+    <div className="container">
       <div id ="ic">  
       
         <img 

@@ -36,10 +36,10 @@ export default class Organizations extends Component {
                 <div class="col-lg-4 col-md-6 d-flex align-items-stretch mx-auto" data-aos="zoom-in" data-aos-delay="100">
                   
                   <div class="icon-box ">
-                  <a href = "/Vigg">
+                  <a href = "/Viggst">
                       <div >
                           <img 
-                          src={'assets/img/robotics.jpg'}style={{"position":"relative", objectFit:'cover', height: '100%', width: '100%',}}/>
+                          src={'assets/img/vigg.jpeg'}style={{"position":"relative", objectFit:'cover', height: '70%', width: '100%',}}/>
                       </div>
                       
                   <h4 style = {{color:'lightblue'}}>Vigg Start Up</h4>
