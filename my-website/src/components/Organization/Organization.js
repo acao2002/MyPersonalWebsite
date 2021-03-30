@@ -140,15 +140,7 @@ Mr. Greene was right. This was not the time to lay blame or give up. With his wo
                     What you've just read is an essay that got me into college. Robotics was one of the biggest parts of my high school. Nothing beats the moments I had with my teammates and mentors tackling engineering problems and innovating new ideas. During such a hard time like this, I have come to appreciate the amazing 3 years that I was able to do the things I love. Hopefully once this is over, I can continue building more robots and working with amazing people at Vanderbilt and beyond!
 
                     </p>
-                   
                 </div>
-                
-              
-
-
-              
-                
-
             </div>
         )
     }

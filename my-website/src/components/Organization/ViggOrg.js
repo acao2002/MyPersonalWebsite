@@ -41,8 +41,8 @@ export default function ViggOrg() {
             <div class="section-title mt-4 mb-1">
                 <h3>Status</h3>
             </div>
-            <div style = {{color: 'white'}}>
-                status test
+            <div className ="container"style = {{color: 'white'}}>
+                Our team ran our MVP from May 2020 to July 2020 while the developer team built the official app. I was working on the front end of the app using React and Bootstrap while Tim was working on the backend using SQL and Flask. Throughout our testing phase, we found out that our business model was not efficient enough and that the market was not obtainable with only a team of 4 people. The start up, hence, was postponed after the first phase. While we're no longer working on Vigg, we still have our project files ready and our data from market research. As a result, we hope to come back in the future after gaining more experience to revitalize our start up dream. 
             </div>
         </section>
     </div>
