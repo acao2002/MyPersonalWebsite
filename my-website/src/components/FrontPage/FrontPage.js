@@ -8,6 +8,7 @@ import Projects from './Projects'
 import Organizations from './Organizations'
 import Music from './Music'
 import Contact from './Contact'
+import CP from './CP'
 
 export default function FrontPAge() {
     return (
@@ -17,6 +18,7 @@ export default function FrontPAge() {
           <About/>
           <Facts/>
           <Skills/>
+          <CP/>
           <Projects/>
           <Organizations/>
           <Music/>
