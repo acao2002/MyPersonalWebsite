@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 export default function ViggOrg() {
     return (
@@ -28,7 +29,7 @@ export default function ViggOrg() {
                 <h1>Vigg Start Up</h1>
                 <h3 class = "my-3" style = {{color:'lightgrey'}}>A platform to for sneakers selling and retailing</h3>
                 <div class="social-links text-center mx-auto">
-                   <a href="/Vigg" target="_blank"  class="ptt"><h3 style ={{fontWeight:'bold'}} >Our Prototype</h3></a>
+                   <Link to="/Vigg" target="_blank"  class="ptt"><h3 style ={{fontWeight:'bold'}} >Our Prototype</h3></Link>
                 </div>
             </div>
             <div class="section-title mt-4">

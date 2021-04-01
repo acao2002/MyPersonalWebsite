@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import Typed from 'react-typed';
 import './Project.css';
+import {Link} from 'react-router-dom'
 
 export default class Voice extends Component {
     render() {
@@ -36,7 +37,7 @@ export default class Voice extends Component {
                             <a href="https://github.com/acao2002/Personal-laptop-voice-assitance-using-Python" target = "blank" class="ptt"><i class="devicon-github-original" ></i><div >Source code</div></a>
                             <a href="https://devpost.com/software/personal-laptop-voice-assitance-using-python" target = "blank"  class="ptt"><i class="icofont-newspaper"></i> <div >Paper/Blog</div></a>
                             <a href="https://www.youtube.com/watch?v=rzGFCqpxV2k" target = "blank"  class="ptt"><i class="icofont-ui-video-chat"></i><div >Deployed app/Demo </div></a>
-                            <a href="/cms" class="ptt"><i class="icofont-key"></i><div > Tutorial </div></a>
+                            <Link to="/cms" class="ptt"><i class="icofont-key"></i><div > Tutorial </div></Link>
                          
                         </div>
                     </div>

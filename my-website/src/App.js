@@ -1,5 +1,5 @@
 import React from 'react'; 
-import {BrowserRouter, Switch, Route} from 'react-router-dom';
+import {HashRouter,BrowserRouter, Switch, Route} from 'react-router-dom';
 import FrontPage from './components/FrontPage/FrontPage'
 import NotFound from './components/NotFound/NotFound';
 import Organization from './components/Organization/Organization';
@@ -18,7 +18,7 @@ import ViggOrg from './components/Organization/ViggOrg';
 function App() {
   return (
     <React.Fragment>
-      <BrowserRouter>
+      <HashRouter>
         <Switch>
           <Route exact path="/">
               <div className ="home-page">
@@ -69,7 +69,7 @@ function App() {
 
     
         </Switch>
-      </BrowserRouter>
+      </HashRouter>
     </React.Fragment>
     
   )}

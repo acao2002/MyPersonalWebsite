@@ -6,6 +6,10 @@ import { Player } from 'video-react';
 
 
 export default class Organization extends Component {
+    
+    componentDidMount() {
+        window.scrollTo(0, 0)
+      }
     render() {
         return (
             
@@ -70,11 +74,11 @@ export default class Organization extends Component {
                     <p className ='text-center my-3'>
                     “This can’t be happening!” I screamed in disbelief when our team’s robot halted in the middle of a game field during the FIRST Robotics Competition. 
 
-“What an embarrassment! Our school and sponsors will never let us compete again after this,” Adrian exclaimed in anguish.
+                    “What an embarrassment! Our school and sponsors will never let us compete again after this,” Adrian exclaimed in anguish.
 
-As tensions ran high, Mr. Greene, our advisor intervened. “Stop squabbling and find a solution! We are in this together!”
+                    As tensions ran high, Mr. Greene, our advisor intervened. “Stop squabbling and find a solution! We are in this together!”
 
-Mr. Greene was right. This was not the time to lay blame or give up. With his words, my mind drifted to our club’s beginnings…
+                    Mr. Greene was right. This was not the time to lay blame or give up. With his words, my mind drifted to our club’s beginnings…
 
                     </p>
                   

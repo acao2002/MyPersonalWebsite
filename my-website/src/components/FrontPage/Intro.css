@@ -30,7 +30,7 @@
     transition: all .5s ease-out;
   }
   
-  .text:hover {
+  .button:hover .text {
     cursor:pointer;
     color: rgb(255, 255, 255);  
     border-color: white;

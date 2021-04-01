@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { Link } from 'react-router-dom';
 import Typed from 'react-typed';
 import './Project.css';
 
@@ -33,10 +34,10 @@ export default class Project extends Component {
                         <p>Technology:  <Typed strings={['Ardunio(IoTs) ','Linear Actuators','Web interface','Automation']}typeSpeed={60} backSpeed={70} loop/>
                         </p>
                         <div class="social-links">
-                            <a href="/patent" target ="blank" class="ptt"><i class="devicon-github-original" ></i><div >Source code</div></a>
-                            <a href="/patent" target ="blank" class="ptt"><i class="icofont-newspaper"></i> <div >Paper/Blog</div></a>
-                            <a href="/patent" target ="blank" class="ptt"><i class="icofont-ui-video-chat"></i><div >Deployed app/Demo </div></a>
-                            <a href="/patent" target ="blank" class="ptt"><i class="icofont-key"></i><div > Tutorial </div></a>
+                            <Link to="/patent" target ="blank" class="ptt"><i class="devicon-github-original" ></i><div >Source code</div></Link>
+                            <Link to="/patent" target ="blank" class="ptt"><i class="icofont-newspaper"></i> <div >Paper/Blog</div></Link>
+                            <Link to="/patent" target ="blank" class="ptt"><i class="icofont-ui-video-chat"></i><div >Deployed app/Demo </div></Link>
+                            <Link to="/patent" target ="blank" class="ptt"><i class="icofont-key"></i><div > Tutorial </div></Link>
                        
                         </div>
                     </div>

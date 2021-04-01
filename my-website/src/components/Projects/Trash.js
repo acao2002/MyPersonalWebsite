@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import Typed from 'react-typed';
 import './Project.css';
+import {Link} from 'react-router-dom'
 
 export default class Trash extends Component {
     render() {
@@ -36,7 +37,7 @@ export default class Trash extends Component {
                             <a href="https://github.com/acao2002/SmartBin-CV-and-Server" target ="blank" class="ptt"><i class="devicon-github-original" ></i><div >Source code</div></a>
                             <a href="https://drive.google.com/file/d/1t47wuzvR15X3JGvWso9eJdDI0sxZgopj/view?usp=sharing" target ="blank"  class="ptt"><i class="icofont-newspaper"></i> <div >Paper/Blog</div></a>
                             <a href="https://drive.google.com/file/d/1t47wuzvR15X3JGvWso9eJdDI0sxZgopj/view?usp=sharing" target ="blank" class="ptt"><i class="icofont-ui-video-chat"></i><div >Deployed app/Demo </div></a>
-                            <a href="/cms" class="ptt"><i class="icofont-key"></i><div > Tutorial </div></a>
+                            <Link to ="/cms" class="ptt"><i class="icofont-key"></i><div > Tutorial </div></Link>
                             
                         </div>
                     </div>
