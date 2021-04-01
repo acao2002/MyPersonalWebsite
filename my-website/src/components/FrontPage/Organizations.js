@@ -14,7 +14,7 @@ export default class Organizations extends Component {
         <div class="row">
             
                 <div class="col-lg-4 col-md-6 d-flex align-items-stretch mx-auto" data-aos="zoom-in" data-aos-delay="100">
-                  <a href = "#/FTC15093">
+                  <Link to ="/FTC15093">
                     <div class="icon-box ">
                     
                         <div >
@@ -29,7 +29,7 @@ export default class Organizations extends Component {
                     <p style ={{color:'lightgray'}}> Top 10 robots in MA 2020</p>
                     
                     </div>
-                    </a>
+                    </Link>
                   
                 </div>
             

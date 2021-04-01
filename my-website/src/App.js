@@ -18,7 +18,7 @@ import ViggOrg from './components/Organization/ViggOrg';
 function App() {
   return (
     <React.Fragment>
-      <HashRouter>
+      <BrowserRouter>
         <Switch>
           <Route exact path="/">
               <div className ="home-page">
@@ -69,7 +69,7 @@ function App() {
 
     
         </Switch>
-      </HashRouter>
+      </BrowserRouter>
     </React.Fragment>
     
   )}
