@@ -24,7 +24,7 @@ export default function About() {
                             <div class="col-lg-6 intext">
                                 <ul>
                                     <li><i class="icofont-rounded-right"></i> <strong>Birthday:</strong> 12 July 2002</li>
-                                    <li><i class="icofont-rounded-right"></i> <strong>Website:</strong> www.example.com</li>
+                                    <li><i class="icofont-rounded-right"></i> <strong>Website:</strong> www.andrewxcao.com</li>
                                     <li><i class="icofont-rounded-right"></i> <strong>Phone:</strong> +84 961 830 767(Vietnam)
                                     </li>
                                     <li className ="tab">   +857 399 5530(US)

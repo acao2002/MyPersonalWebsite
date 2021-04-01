@@ -1,0 +1,37 @@
+.outer {
+    margin-top: 20px;
+    border-radius: 1px solid white;
+  }
+  
+  .button {
+    
+    border: 1px solid rgb(48, 180, 233);
+    border-radius: 5px;
+    width: 200px;
+    height: 40px;
+    display: block;
+  
+    background: linear-gradient(to right, rgb(42, 147, 189) 50%, rgb(12, 12, 12) 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: all .5s ease-out;
+  }
+  
+  .button:hover {
+    background-position: left bottom;
+  }
+  
+  .text {
+      
+    text-align: center;
+    font-size: 16px;
+    line-height: 30px; 
+    color: rgb(32, 179, 224);
+    transition: all .5s ease-out;
+  }
+  
+  .text:hover {
+    cursor:pointer;
+    color: rgb(255, 255, 255);  
+    border-color: white;
+  }

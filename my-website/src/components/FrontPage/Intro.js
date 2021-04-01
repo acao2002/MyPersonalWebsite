@@ -1,8 +1,10 @@
 import React from 'react'
 import Typed from 'react-typed';
 import ImgShow from './ImgShow';
+import "./Intro.css"
 
 export default function Intro() {
+    
     return (
         <div>
             <ImgShow/>
@@ -12,12 +14,17 @@ export default function Intro() {
                     <p>I'm  <Typed strings={[' Developer ','Engineer','Musician','Chess player']}typeSpeed={60} backSpeed={70} loop/>
                     </p>
                     <div class="social-links">
-                        <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-                        <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-                        <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-                        <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-                        <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+                        <a href="https://github.com/acao2002" target ="blank" className="twitter"><i class="bx bxl-github"></i></a>
+                        <a href="https://www.linkedin.com/in/an-cao-2a136320a/" target = "blank" className="linkedin"><i class="bx bxl-linkedin"></i></a>
                     </div>
+                    <div className ="outer">
+                        <a href = "/cv/andrewcv.docx">
+                            <div class="button">
+                                <div class="text">Download Resume</div>
+                            </div>
+                        </a>
+                    </div>
+                   
                 </div>
             </section>
         </div>
