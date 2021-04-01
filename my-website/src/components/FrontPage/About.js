@@ -43,7 +43,7 @@ export default function About() {
                         </div>
                             </div>
                                 <p class ="intext">
-                                    I fell in love with Tech very early in life. As a kid, I spent more time unscrewing my toys and reassembling them than actually playing them. Later on in middle school, I learned of my tech-oriented mindset after exposing myself to coding and IoTs(mostly ardunio) technology. On this website, you can find my work at tech organizations since high school along with my recent side projects in Computer Vision, Machine Learning, Reinforcement Learning, web developement, etc. Besides, I would also like to share what I know and my perspectives via blogs and tutorials along with my other hobbies such as music and chess. 
+                                    I fell in love with Tech very early in life. As a kid, I spent more time unscrewing my toys and reassembling them than actually playing them. During middle school, I have been participating at local science fairs and exposing myself to coding and IoTs(Ardunio) technology. Since then, I have been nurturing my love for technologies through founding my robotics team in high school, building complex embedded systems, or making all sorts of coding projects ranging from simple object oriented Applications to advanced topics such as Computer Vision, Machine Learning, Reinforcement Learning, Web Developement, etc. Besides CS and Engineering, I also have a strong passion for music, chess, and outdoor activities!. I am eager to share my work and my endeavours with you via this website and I hope you enjoy learning about me! 
                                 </p>
                             </div>
                         </div>
