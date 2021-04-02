@@ -1,6 +1,7 @@
-.outer {
+  #hero .outer {
     margin-top: 20px;
     border-radius: 1px solid white;
+    display: inline-block;
   }
   
   .button {
@@ -34,4 +35,10 @@
     cursor:pointer;
     color: rgb(255, 255, 255);  
     border-color: white;
+  }   
+
+  @media only screen and (max-width: 1300px) {
+    .outer{
+      text-align: center;
+    }
   }

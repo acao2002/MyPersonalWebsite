@@ -14,12 +14,15 @@ export default function Intro() {
                     <p>I'm  <Typed strings={[' Developer ','Engineer','Musician','Chess player']}typeSpeed={60} backSpeed={70} loop/>
                     </p>
                     <div className ="outer">
+                    
                         <a href = "/cv/andrewcv.docx">
                             <div class="button">
                                 <div class="text">Download Resume</div>
                             </div>
                         </a>
                     </div>
+    
+ 
 
                     <div class="social-links">
                         <a href="https://github.com/acao2002" target ="blank" className="twitter"><i class="bx bxl-github"></i></a>

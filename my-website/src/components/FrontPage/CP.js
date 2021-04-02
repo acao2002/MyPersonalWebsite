@@ -1,10 +1,11 @@
 import React, { Component } from 'react'
 import {Link} from 'react-router-dom'
+import './Projects.css'
 
 export default class CP extends Component {
     render() {
         return (
-    <section id="projects" class="services">
+    <section id="CP" class="services">
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
