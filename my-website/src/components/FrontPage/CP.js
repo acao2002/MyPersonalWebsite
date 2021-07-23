@@ -6,7 +6,7 @@ export default class CP extends Component {
     render() {
         return (
     <section id="CP" class="services">
-      <div class="container" data-aos="fade-up">
+      <div class="container text-center" data-aos="fade-up">
 
         <div class="section-title">
           <h2>Data Structures and Algorithms - Competitive Programming</h2>
@@ -15,7 +15,7 @@ export default class CP extends Component {
 
         <div class="row mt-5">
             
-                <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+                <div class="col-lg-6 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
                   
                     <div>
                       <a className ="cp" href = "https://github.com/acao2002/Learn-DataStructures-and-Algorithms-with-Hackerrank-Solutions" target = "blank"> 
@@ -29,7 +29,7 @@ export default class CP extends Component {
                 </div>
             
 
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
+          <div class="col-lg-6 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
            
            <div>
               <a className ="cp" href = "https://github.com/acao2002/Google-Code-Jam" target = "blank">
@@ -42,17 +42,6 @@ export default class CP extends Component {
            
           </div>
 
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="300">
-         
-            
-          <div>
-              <a className ="cp" href = "https://github.com/acao2002/Google-Kickstart" target ="blank">
-                <h4 className ="text-center cp" style = {{color:'lightblue'}}>Google Kickstart</h4>
-              </a>
-              <p  className ="text-center" style ={{color:'lightgray'}}> My solutions of some past problems preparing for 2021 competition and my solutions of the <a href ="https://codingcompetitions.withgoogle.com/kickstart" target = "blank"> ongoing 2021 Google Kickstart.</a> </p>
-           </div>
-           
-          </div>
           
         </div>
 
