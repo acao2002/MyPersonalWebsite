@@ -11,9 +11,10 @@ import Snake from './components/Projects/Snake';
 import Chatbot from './components/Projects/Chatbot';
 import Vigg from './components/Projects/Vigg';
 import Models from './components/Projects/Models';
-import Rocket from './components/Projects/Rocket';
+import Rocket from './components/Projects/GameDev';
 import Patent from './components/Projects/Patent';
 import ViggOrg from './components/Organization/ViggOrg';
+import GameDev from './components/Projects/GameDev';
 
 function App() {
   return (
@@ -40,6 +41,9 @@ function App() {
           <Route exact path="/AnChatBot">
               <Chatbot/>
           </Route>
+          <Route exact path="/game-creation">
+              <GameDev/>
+          </Route>
           <Route exact path="/Vigg">
               <Vigg/>
           </Route>
@@ -48,9 +52,6 @@ function App() {
           </Route>
           <Route exact path="/Pmodels">
               <Models/>
-          </Route>
-          <Route exact path="/rocket">
-              <Rocket/>
           </Route>
           <Route exact path="/FTC15093">
               <Organization/>

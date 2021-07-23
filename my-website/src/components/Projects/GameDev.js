@@ -2,14 +2,14 @@ import React, { Component } from 'react'
 import Typed from 'react-typed';
 import './Project.css';
 
-export default class Rocket extends Component {
+export default class GameDev extends Component {
     render() {
         return (
             <div>
                 <img 
                     alt="background"
                     className="background" 
-                    src="assets/img/physio.png"
+                    src="assets/img/cocos.png"
                     style={{"position":"fixed", objectFit:'cover', height: '100%', width: '100%', opacity:'50%'}}
                 />
                 <button type="button" class="mobile-nav-toggle d-xl-none"><i class="icofont-navigation-menu"></i></button>
@@ -26,10 +26,10 @@ export default class Rocket extends Component {
 
                 </header> 
                 
-                <section id="hero" class="d-flex flex-column text-center mt-5">
+                <section id="hero" class="d-flex flex-column text-center ">
                     <div class="container" data-aos="zoom-in" data-aos-delay="100">
-                        <h1>PhysioCare</h1>
-                        <h3 class = "my-3" style = {{color:'lightgrey'}}>By Andrew Cao and Quoc Anh Ngo </h3>
+                        <h1>Egg game</h1>
+                        <h3 class = "my-3" style = {{color:'lightgrey'}}>By Andrew Cao</h3>
                         <p>Technology:  <Typed strings={['Ardunio(IoTs) ','Linear Actuators','Web interface','Automation']}typeSpeed={60} backSpeed={70} loop/>
                         </p>
                         <div class="social-links">
