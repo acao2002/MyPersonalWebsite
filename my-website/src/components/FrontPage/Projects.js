@@ -163,7 +163,7 @@ export default class Projects extends Component {
                 <i class="icofont-rocket"></i>
               </div>
               <h4 style = {{color:'lightblue'}}> Game Development Using Cocos Creator</h4>
-              <p style ={{color:'lightgray'}}> Follow the live updates of my current research of rocket engines and Thrust Vector Control </p>
+              <p style ={{color:'lightgray'}}> My game development learning process with industry-standard software Cocos Creator </p>
               </Link>
             </div>
             
