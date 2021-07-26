@@ -9,6 +9,7 @@ import Organizations from './Organizations'
 import Music from './Music'
 import Contact from './Contact'
 import CP from './CP'
+import TradeBot from './TradeBot'
 
 export default function FrontPAge() {
     return (
@@ -20,6 +21,7 @@ export default function FrontPAge() {
           <Skills/>
           <CP/>
           <Projects/>
+          <TradeBot/>
           <Organizations/>
           <Music/>
           <Contact/>
