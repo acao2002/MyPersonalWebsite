@@ -20,7 +20,7 @@ export default class TradeBot extends Component {
                   
                     <div>
                       <a className ="cp" href = "https://github.com/acao2002/IQOptionTradingBot" target = "blank"> 
-                        <h4 className ="text-center cp" style = {{color:'lightblue'}}>IQ OPTION TRADING BOTS</h4> 
+                        <h4 className ="text-center cp" style = {{color:'lightblue'}}>INTRODUCTION: IQ OPTION TRADING BOTS</h4> 
                       </a>
                       <p className ="text-center"style ={{color:'lightgray'}}> Momentum and dca bots running on IQ OPTION platform.</p>
                     </div>
